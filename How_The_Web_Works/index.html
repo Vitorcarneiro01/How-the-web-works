@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Report on "How the Web Works"</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id = "container">
+            <header id="masthead">
+                <a href="index.html">
+                    <video autoplay muted loop playsinline poster="midia/logo.jpg">
+                        <source src="midia/video.mp4" type="video/mp4">
+                        <img src="midia/logo.jpg" alt="Website Logo - How the Web Works">
+                    </video>
+                </a>
+                <nav> 
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+						<li><a href="bibliography.html">Bibliography</a></li>
+						<li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="content"> 
+                <main>
+                    <article>
+                        <div id="task1">
+                            <header>
+                                <h2> Brief history of the web </h2>
+                            </header>
+                            <p>The web began when a British scientist, Tim Berners-Lee, while working at <a class="citation" href="bibliography.html#link2" target="_blank">CERN</a> identified difficulty in sharing information between different groups. That was when, in March 1989, he developed a Web proposal <a href="bibliography.html#ref1" target="_blank">[1]</a> to help solve these problems. The project consisted in the use of hypertext, which is a way to link and access various information as a web (using hypertext documents) requested by the user. <a href="bibliography.html#ref2" target="_blank">[2]</a> And after, he invented the WWW (World Wide Web).<a href="bibliography.html#ref3" target="_blank">[3]</a>
+                            The internet is a global network connecting computers, while the WWW is a system of interconnected pages, which operates through the internet.  In 1990, with Belgian systems engineer Robert Cailliau, <a href="bibliography.html#ref4" target="_blank">[4]</a> they developed a more detailed proposal for the WWW, based on connecting and sharing information through hypertext. Furthermore, He developed key components, namely HTML (a language that is used to structure the content from the web pages), HTTP (a protocol that allows communication and the transfer of information between the users’ browsers and servers) and URL (address used to find resources on the web).</p>
+                            <p>Moreover, Tim created the first web address from a website in the world: <a href="bibliography.html#link2" target="_blank"> info.cern.ch</a> <a href="bibliography.html#ref5" target="_blank">[5]</a> and also, the first server, which was initially used by only a few users. Therefore, a ‘line-mode’ browser was developed to make the Web more accessible to users with access to CERN computers.<a href="bibliography.html#ref3" target="_blank">[3]</a> In August 1991, after he (Tim) announced his software on internet newsgroups, it started to spread around the world. In February 1993, the NCSA <a href="bibliography.html#ref7" target="_blank">[7]</a> at University of Illinois developed the first Mosaic, a graphical browser that supported different protocols. In addition, in April 1993, CERN released the WWW software into a public domain<a href="bibliography.html#ref6" target="_blank">[6]</a>. By the end of 1994 the web had more than 10 000 servers and around 10 million users.<a href="bibliography.html#ref8" target="_blank">[8]</a></p>
+                            <p>In October 1994, Tim Berners-Lee established the W3C,<a href="bibliography.html#ref9" target="_blank">[9]</a> with the aim of developing Web Standards and accessibility between different browsers and devices.</p>
+                        </div>   
+                        <div id="task2">
+                            <header>
+                                <h2> How a web page is delivered </h2>
+                            </header>
+                            
+                                <p>Understanding how the web works involves many processes that happen behind the scenes when a user accesses a website.</p>
+
+                                <h3>The Client and the Server</h3> 
+                                    <p> A client is a device or software, such as Chrome or Safari, that requests information from a server. Servers are computers that receive the request and provide the resources to the client. Therefore, the server responds the user’s request by sending the required resources back to the client and are then processed by the browser. <a href="bibliography.html#ref10" target="_blank">[10]</a></p>
+
+                                <h3>URL and DNS</h3> 
+                                    <p>The URL is used to identifies the requested resource, and DNS helps resolve the domain name to an IP address. URL (Uniform Resource Locator) is the address of the webpage, which can contain different components some of which are optional, like WWW, Top-level domain, file path, but the Scheme (Define the protocol used, like HTTP or HTTPS) and domain name (Identifies the name registered on domain, like Griffithcollege.com) are essential in a complete HTTP/HTTPS URL. </p>
+                                    <p>DNS (Domain Name System) is used to translate the domain to an IP address, like a phone book, helping the browser locate the correct server and send an HTTP request to the right place. <a href="bibliography.html#ref11" target="_blank">[11]</a></p>
+
+                                <h3>TCP/IP</h3> 
+                                    <p>TCP/IP works by breaking data into small pieces and transmit it over the internet and provides a better stability a fluidity. </p>
+                                    <p>Imagine the train that is traveling from Mallow to Cork and back. A similar process happens on the internet communication which involves requests and respond flowing between clients and servers. On the internet the TCP/IP is a suite of protocols that allows devices to communicate with each other. TCP (Transmission control protocol) helps organize and ensure that the small segments of data arrive correctly and in the right order, if some data is lost during the transmission, TCP can retransmit the lost data. IP (Internet Protocol) is responsible for encapsulating the TCP segments into IP packets and providing the right address and routing the data to the correct destination. <a href="bibliography.html#ref12" target="_blank">[12]</a> </p>
+
+                                <h3>Hypertext Transfer Protocol</h3>
+                                    <p> HTTP allow browsers and servers to exchange requests and response. A request may contain method, headers, and body, while response may contain the status code, header and, when is applicable, body together with the resource requested</p>
+                                    <p>HTTP uses some Methods for example GET (requests a resource from the Server). When the server responds, it sends a code to identify the request like ‘200 OK’ (which means success), ‘404 Not Found’ (client error), ‘500 Internal Server Error’ (server error) … <a href="bibliography.html#ref10" target="_blank">[10]</a></p>
+
+                                <h3>HTTPS (Hypertext Transfer Protocol Secure)</h3>
+                                    <p>HTTPS is the secure version of HTTP because it uses TLS (Transport Layer Security) to encrypt communication, protect data during the transmission, helping block unwanted users, read or change the communication in progress and verifying the server’s ID. To conclude, the server sends resources such as HTML, CSS, JavaScript and images to the browser processes these resources and use to display the webpage to the user. <a href="bibliography.html#ref10" target="_blank">[10]</a></p>
+                        </div>   
+                        <div id="task3">
+                            <header>
+                                <h2> How web pages work </h2>
+                            </header>
+                            <p> For a web page to be displayed correctly, some technologies are necessary, such as HTML, CSS, JavaScript, each of them has a specific function in making the web page work properly.</p>
+                            <p> After the browser send a request to the server and receives a response, the response contain HTML files which provides the structure of the page. The HTML also contains references to CSS and JavaScript files, the browser can request separately. CSS controls the appearance of the web page, while JavaScript adds functionality and allows users to interact with different page elements.</p>
+                            <p> When the browser reads the HTML file, it creates a structure called the DOM (Document Object Model) which has a tree structure. <a href="bibliography.html#ref13" target="_blank">[13]</a>. This allows the browser identifies and organises the HTML element (h1, p, a…)</p>
+                            <p> Once the HTML is structured and created, the browser processes the CSS file included and determine the appearance of the webpage. CSS applies styling rules to the HTML elements, controlling how they are displayed. Meanwhile, JavaScript is used to change the content and interact with the elements using the DOM. JavaScript code is interpreted or compiled by the browser and the executed.</p>
+                            <p> Finally, the browser performs the rendering process, which transform these technologies into visual content. During this process, the browser calculates the position and size of the elements (layout), paints their visual appearance(painting) and combines different layers (compositing), Therefore, if JavaScript changes the DOM, the browser may need to update the layout and appearance of the page, which allows the final webpage to be displayed on the user’s screen. <a href="bibliography.html#ref14" target="_blank">[14]</a></p>
+                        </div>   
+                    </article>
+                </main>
+                <footer>
+                    <div class="bottom">
+                        <h2><a href="about.html">Vitor Gabriel Alves Carneiro</a></h2>
+                        <p>Student ID: 3207515 | Computer Science Student</p>
+                    </div>
+                    <p><a href="mailto:vitor.gabriel.alves.carneiro@griffithcollege.ie">Contact: vitor.gabriel.alves.carneiro@griffithcollege.ie</a></p>
+                    <p>&copy; 2026 • Vitor Gabriel Alves Carneiro</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
